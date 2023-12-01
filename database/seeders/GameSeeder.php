@@ -38,7 +38,7 @@ class GameSeeder extends Seeder
                 "id" => "3",
                 "game_name" => "EA SPORTS™FIFA 23",
                 "game_detail" => "Experience the excitement of the biggest tournament in football with EA SPORTS™ FIFA 23 and the men’s FIFA World Cup™ update, available on November 9 at no additional cost!.",
-                "game_price" => 50.66,
+                "game_price" => 510000,
                 "game_image" => "storage/images/fifa23.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -47,7 +47,7 @@ class GameSeeder extends Seeder
                 "id" => "4",
                 "game_name" => "Red Dead Redemption 2",
                 "game_detail" => "Winner of over 175 Game of the Year Awards and recipient of over 250 perfect scores, RDR2 is the epic tale of outlaw Arthur Morgan and the infamous Van der Linde gang, on the run across America at the dawn of the modern age. Also includes access to the shared living world of Red Dead Online.",
-                "game_price" => 42.71,
+                "game_price" => 430000,
                 "game_image" => "storage/images/rdr2.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -56,7 +56,7 @@ class GameSeeder extends Seeder
                 "id" => "5",
                 "game_name" => "Hogwarts Legacy",
                 "game_detail" => "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
-                "game_price" => 49.98,
+                "game_price" => 500000,
                 "game_image" => "storage/images/hogwartslegacy.png",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -74,7 +74,7 @@ class GameSeeder extends Seeder
                 "id" => "7",
                 "game_name" => "Grand Theft Auto V",
                 "game_detail" => "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
-                "game_price" => 26.67,
+                "game_price" => 270000,
                 "game_image" => "storage/images/gtav.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -83,7 +83,7 @@ class GameSeeder extends Seeder
                 "id" => "8",
                 "game_name" => "Call of Duty®: Modern Warfare® II",
                 "game_detail" => "Call of Duty®: Modern Warfare® II drops players into an unprecedented global conflict that features the return of the iconic Operators of Task Force 141.",
-                "game_price" => 68.37,
+                "game_price" => 690000,
                 "game_image" => "storage/images/codmw2.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -92,7 +92,7 @@ class GameSeeder extends Seeder
                 "id" => "9",
                 "game_name" => "NARAKA: BLADEPOINT",
                 "game_detail" => "NARAKA: BLADEPOINT is an up to 60-player PVP mythical action combat experience with martial arts inspired melee combat, gravity defying mobility, vast arsenals of melee & ranged weapons, legendary customizable heroes with epic abilities - inspired by the legends of the Far East.",
-                "game_price" => 14.67,
+                "game_price" => 150000,
                 "game_image" => "storage/images/narakabladepoint.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -101,7 +101,7 @@ class GameSeeder extends Seeder
                 "id" => "10",
                 "game_name" => "Cyberpunk 2077",
                 "game_detail" => "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
-                "game_price" => 46.68,
+                "game_price" => 470000,
                 "game_image" => "storage/images/cyberpunk2077.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "1"
@@ -138,7 +138,7 @@ class GameSeeder extends Seeder
                 "id" => "14",
                 "game_name" => "Forza Horizon 5",
                 "game_detail" => "Your Ultimate Horizon Adventure awaits! Explore the vibrant open world landscapes of Mexico with limitless, fun driving action in the worlds greatest cars. Blast off to Hot Wheels Park and experience the most extreme tracks ever devised. Requires Forza Horizon 5 game, expansion sold separately.",
-                "game_price" => 47,
+                "game_price" => 470000,
                 "game_image" => "storage/images/fh5.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "2"
@@ -147,7 +147,7 @@ class GameSeeder extends Seeder
                 "id" => "15",
                 "game_name" => "Forspoken",
                 "game_detail" => "Forspoken follows the journey of Frey, a young New Yorker transported to the beautiful and cruel land of Athia. In search of a way home, Frey must use her newfound magical abilities to traverse sprawling landscapes and battle monstrous creatures.",
-                "game_price" => 68,
+                "game_price" => 680000,
                 "game_image" => "storage/images/forspoken.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "2"
@@ -202,7 +202,7 @@ class GameSeeder extends Seeder
                 "id" => "21",
                 "game_name" => "It Takes Two",
                 "game_detail" => "UEmbark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friends Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
-                "game_price" => 31,
+                "game_price" => 310000,
                 "game_image" => "storage/images/ittakes2.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -211,7 +211,7 @@ class GameSeeder extends Seeder
                 "id" => "22",
                 "game_name" => "Rust",
                 "game_detail" => "The only aim in Rust is to survive. Everything wants you to die - the islands wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.",
-                "game_price" => 19,
+                "game_price" => 190000,
                 "game_image" => "storage/images/rust.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -220,7 +220,7 @@ class GameSeeder extends Seeder
                 "id" => "23",
                 "game_name" => "Tom Clancy's Rainbow Six® Siege",
                 "game_detail" => "Tom Clancy's Rainbow Six Siege is the latest installment of the acclaimed first-person shooter franchise developed by the renowned Ubisoft Montreal studio.",
-                "game_price" => 13,
+                "game_price" => 130000,
                 "game_image" => "storage/images/r6siege.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -229,7 +229,7 @@ class GameSeeder extends Seeder
                 "id" => "24",
                 "game_name" => "Dead Space",
                 "game_detail" => "The sci-fi survival-horror classic returns, completely rebuilt to offer an even more immersive experience — including visual, audio, and gameplay improvements — while staying faithful to the original games thrilling vision.",
-                "game_price" => 43,
+                "game_price" => 430000,
                 "game_image" => "storage/images/deadspace.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -247,7 +247,7 @@ class GameSeeder extends Seeder
                 "id" => "26",
                 "game_name" => "God of War",
                 "game_detail" => "His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.",
-                "game_price" => 48,
+                "game_price" => 480000,
                 "game_image" => "storage/images/godofwar.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -256,7 +256,7 @@ class GameSeeder extends Seeder
                 "id" => "27",
                 "game_name" => "Horizon Zero Dawn™ Complete Edition",
                 "game_detail" => "Experience Aloys legendary quest to unravel the mysteries of a future Earth ruled by Machines. Use devastating tactical attacks against your prey and explore a majestic open world in this award-winning action RPG!",
-                "game_price" => 48,
+                "game_price" => 480000,
                 "game_image" => "storage/images/horizonzerodawn.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -265,7 +265,7 @@ class GameSeeder extends Seeder
                 "id" => "28",
                 "game_name" => "Persona 5 Royal",
                 "game_detail" => "Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!",
-                "game_price" => 53,
+                "game_price" => 530000,
                 "game_image" => "storage/images/p5royal.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -274,7 +274,7 @@ class GameSeeder extends Seeder
                 "id" => "29",
                 "game_name" => "Hunt: Showdown",
                 "game_detail" => "Hunt: Showdown is a high-stakes, tactical PvPvE first-person shooter. Hunt for bounties in the infested Bayou, kill nightmarish monsters and outwit competing hunters - alone or in a group - with your glory, gear, and gold on the line.",
-                "game_price" => 21,
+                "game_price" => 210000,
                 "game_image" => "storage/images/huntshowdown.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -283,7 +283,7 @@ class GameSeeder extends Seeder
                 "id" => "30",
                 "game_name" => "Muse Dash",
                 "game_detail" => "Paradise of parkour & rhythm game ★★★ — Muse Dash!!",
-                "game_price" => 2,
+                "game_price" => 20000,
                 "game_image" => "storage/images/musedash.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "3"
@@ -293,7 +293,7 @@ class GameSeeder extends Seeder
                 "id" => "31",
                 "game_name" => "Muse Dash - Just as planned",
                 "game_detail" => "This content requires the base game Muse Dash on Steam in order to play.",
-                "game_price" => 28,
+                "game_price" => 280000,
                 "game_image" => "storage/images/muse-justasplanned.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "4"
@@ -302,7 +302,7 @@ class GameSeeder extends Seeder
                 "id" => "32",
                 "game_name" => "Deep Rock Galactic",
                 "game_detail" => "Deep Rock Galactic is a 1-4 player co-op FPS featuring badass space Dwarves, 100% destructible environments, procedurally-generated caves, and endless hordes of alien monsters.",
-                "game_price" => 9,
+                "game_price" => 90000,
                 "game_image" => "storage/images/deeprockgalactic.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "4"
@@ -311,7 +311,7 @@ class GameSeeder extends Seeder
                 "id" => "33",
                 "game_name" => "NBA 2K23",
                 "game_detail" => "Rise to the occasion in NBA 2K23. Showcase your talent in MyCAREER. Pair All-Stars with timeless legends in MyTEAM. Build your own dynasty in MyGM, or guide the NBA in a new direction with MyLEAGUE. Take on NBA or WNBA teams in PLAY NOW and feel true-to-life gameplay.",
-                "game_price" => 73,
+                "game_price" => 730000,
                 "game_image" => "storage/images/nba2k23.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "4"
@@ -320,7 +320,7 @@ class GameSeeder extends Seeder
                 "id" => "34",
                 "game_name" => "DayZ",
                 "game_detail" => "How long can you survive a post-apocalyptic world? A land overrun with an infected zombie population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ, this is your story.",
-                "game_price" => 22,
+                "game_price" => 220000,
                 "game_image" => "storage/images/dayz.jpeg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "4"
@@ -329,7 +329,7 @@ class GameSeeder extends Seeder
                 "id" => "35",
                 "game_name" => "Battlefield™ V",
                 "game_detail" => "This is the ultimate Battlefield V experience. Enter mankind’s greatest conflict with the complete arsenal of weapons, vehicles, and gadgets plus the best customization content of Year 1 and 2.",
-                "game_price" => 38,
+                "game_price" => 380000,
                 "game_image" => "storage/images/bf5.jpg",
                 "game_pegi_rating" => 18,
                 "game_genre_id" => "4"
