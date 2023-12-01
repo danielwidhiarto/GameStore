@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('/landingpage'); }) -> name('landing_page');
 
 //Auth
-Route::get('/gamestore/register', function () {return view('Authentication.register'); }) -> name('register');
-Route::get('/gamestore/login', function () {return view('Authentication.login'); }) -> name('login');
+Route::get('/gamestore/register', function () {return view('Authentication.register'); }) -> name('register_page');
+Route::get('/gamestore/login', function () {return view('Authentication.login'); }) -> name('login_page');
 // Route::get('/gamestore/guest', function () {return view('Auth.login'); }) -> name('login');

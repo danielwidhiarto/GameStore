@@ -9,7 +9,7 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('/public/images/app_logo.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('storage/images/app_logo.png') }}">
     <style>
         body {
             height: 100vh;
@@ -54,8 +54,8 @@
         <p class="lead">Welcome to Gamestore Web App</p>
         <hr class="my-4">
         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-            <a class="btn btn-primary btn-lg" href="{{ route('register') }}" role="button">Register </a>
-            <a class="btn btn-primary btn-lg" href="{{ route('login') }}" role="button">Login </a>
+            <a class="btn btn-primary btn-lg" href="{{ route('login_page') }}" role="button">Login </a>
+            <a class="btn btn-primary btn-lg" href="{{ route('register_page') }}" role="button">Register </a>
         </div>
     </div>
     <!-- Bootstrap 5 JS and Popper.js -->

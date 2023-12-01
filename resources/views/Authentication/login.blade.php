@@ -9,12 +9,12 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/app.css">
-    <title>@yield('title')</title>
+    <title>GameSlot | Login</title>
+
 </head>
 
 <body>
-
-    <div class="col-md-3 container d-flex flex-wrap justify-content-center mt-5">
+    <div class="col-md-3 container d-flex flex-wrap justify-content-center mt-3">
         @if ($message = Session::get('success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">
             {{ $message }}
@@ -26,27 +26,27 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
         @endif
-        <main class="form-signin w-100 m-auto">
-            <form action={{route('login')}} method="POST" class="flex-wrap">
+        <main class="form-signin w-100 mt-3">
+            <form action={{route('login_page')}} method="POST" class="flex-wrap">
                 @csrf
                 <a class="navbar-brand px-2 d-flex justify-content-center text-center" href="/">
                     <img src="{{asset('storage/images/app_logo.png')}}" width="75" height="75" alt="GameSlot">
                 </a>
-                <h1 class="h3 mb-3 fw-normal d-flex justify-content-center text-center">Log In with Registered Account
+                <h1 class="h3 mb-3 fw-normal d-flex justify-content-center text-center mt-3">Log In with Registered Account
                 </h1>
 
-                <div class="form-floating">
+                <div class="form-floating mt-3">
                     <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email"
                         value="{{Cookie::get('userEmail') !==  null ? Cookie::get('userEmail') : ''}}">
                     <label for="floatingInput">Email address</label>
                 </div>
-                <div class="form-floating">
+                <div class="form-floating mt-3">
                     <input type="password" class="form-control" id="password" placeholder="Password" name="password"
                         value="{{Cookie::get('userPassword') !==  null ? Cookie::get('userPassword') : ''}}">
                     <label for="floatingPassword">Password</label>
                 </div>
 
-                <div class="checkbox mb-3">
+                <div class="checkbox mt-3">
                     <label>
                         <input type="checkbox" value="remember-me" name="remember"> Remember me
                     </label>
@@ -56,9 +56,10 @@
                     <p class="text-danger">{{$errors->first()}}</p>
                 @endif --}}
 
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Log in</button>
-                <p class="mt-4 mb-1 text-muted d-flex flex-wrap justify-content-center">Need an account?</p>
-                <a href="{{route('register')}}" class="d-flex flex-wrap justify-content-center mb-3">Register Here</a>
+                <button class="w-100 btn btn-lg btn-primary mt-3" type="submit">Log in</button>
+                <a href="{{ route('landing_page') }}" class="btn btn-lg btn-secondary mt-3" style="width: 100%;">Back to Landing Page</a>
+                <p class="mt-3 mb-1 text-muted d-flex flex-wrap justify-content-center">Need an account?</p>
+                <a href="{{route('register_page')}}" class="d-flex flex-wrap justify-content-center mb-3">Register Here</a>
             </form>
         </main>
     </div>
