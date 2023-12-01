@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/landingPage'); }) -> name('landing_page');
+    return view('/landingpage'); }) -> name('landing_page');
 
 //Auth
 Route::get('/gamestore/register', function () {return view('Auth.register'); }) -> name('register');
