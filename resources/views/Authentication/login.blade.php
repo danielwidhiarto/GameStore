@@ -30,7 +30,7 @@
             <form action={{route('login')}} method="POST" class="flex-wrap">
                 @csrf
                 <a class="navbar-brand px-2 d-flex justify-content-center text-center" href="/">
-                    <img src="{{asset('storage/images/gameslot_logo.png')}}" width="75" height="75" alt="GameSlot">
+                    <img src="{{asset('storage/images/app_logo.png')}}" width="75" height="75" alt="GameSlot">
                 </a>
                 <h1 class="h3 mb-3 fw-normal d-flex justify-content-center text-center">Log In with Registered Account
                 </h1>

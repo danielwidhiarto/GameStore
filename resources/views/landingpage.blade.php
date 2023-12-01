@@ -9,7 +9,7 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('/images/logo.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/public/images/app_logo.png') }}">
     <style>
         body {
             height: 100vh;
@@ -49,7 +49,7 @@
 
 <body>
     <div class="jumbotron text-center">
-        <img src="{{ asset('/images/logo.png') }}" alt="Logo" class="logo">
+    <img src="{{ asset('storage/images/app_logo.png') }}" alt="Logo" class="logo">
         <h1 class="display-4">Gamestore</h1>
         <p class="lead">Welcome to Gamestore Web App</p>
         <hr class="my-4">
