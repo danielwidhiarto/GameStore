@@ -1,6 +1,6 @@
 # GameStore
 
-GameStore is a Laravel-based online game purchase website that allows users to browse a variety of games, add them to their shopping cart and proceed to checkout. The system supports two user roles: admin and customer, providing an interactive platform for game enthusiasts.
+GameStore is a Laravel-based online game purchase website that allows users to browse a variety of games, add them to their shopping cart, and proceed to checkout. The system supports two user roles: admin and customer, providing an interactive platform for game enthusiasts.
 
 ## Features include
 
@@ -41,9 +41,10 @@ To set up GameStore in your local environment, follow these steps
 ## Contribute
 
 If you would like to contribute to the development of GameStore, please fork the repository and submit a pull request. We welcome your contributions and feedback.
+
 ## Support and issues
 
-For any questions or issues related to the GameStore, please feel free to open an issue on the [GitHub repository] (https://github.com/danielwidhiarto/GameStore/issues). We appreciate your feedback and will do our best to help you.
+If you encounter any problems or have any questions about DraxLorant-Bot, please feel free to open an issue on the [GitHub repository](https://github.com/danielwidhiarto/GameStore/issues). We'll do our best to help you.
 
 ## Licence
 
