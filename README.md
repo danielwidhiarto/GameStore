@@ -1,3 +1,7 @@
+# Rating
+
+[![CodeFactor](https://www.codefactor.io/repository/github/danielwidhiarto/gamestore/badge)](https://www.codefactor.io/repository/github/danielwidhiarto/gamestore)
+
 # GameStore
 
 GameStore is a Laravel-based online game purchase website that allows users to browse a variety of games, add them to their shopping cart, and proceed to checkout. The system supports two user roles: admin and customer, providing an interactive platform for game enthusiasts.
